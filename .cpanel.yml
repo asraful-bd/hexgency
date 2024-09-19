@@ -1,7 +1,6 @@
-# .cpanel.yml
-
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hexgency/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
+   

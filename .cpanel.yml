@@ -1,4 +1,0 @@
----
-deployment:
-  tasks:
-    - /bin/cp -R * ${DEPLOYPATH:-/home/hexgency/public_html}

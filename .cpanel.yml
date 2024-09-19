@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/hexgency/public_html/
-    - /bin/cp * $DEPLOYPATH
-   
